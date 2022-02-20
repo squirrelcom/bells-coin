@@ -21,7 +21,7 @@ using namespace std;
 using namespace boost;
 
 #if defined(NDEBUG)
-# error "Bells cannot be compiled without assertions."
+# error "MoggyCoin cannot be compiled without assertions."
 #endif
 
 //
@@ -70,7 +70,7 @@ map<uint256, set<uint256> > mapOrphanTransactionsByPrev;
 // Constant stuff for coinbase transactions we create:
 CScript COINBASE_FLAGS;
 
-const string strMessageMagic = "Bells Signed Message:\n";
+const string strMessageMagic = "MoggyCoin Signed Message:\n";
 
 double dHashesPerSec = 0.0;
 int64 nHPSTimerStart = 0;
